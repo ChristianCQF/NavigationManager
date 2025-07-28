@@ -10,8 +10,8 @@ import com.google.appinventor.components.runtime.ComponentContainer;
 import com.google.appinventor.components.runtime.EventDispatcher;
 
 @DesignerComponent(
-  version = 111,
-  versionName = "3.0.3",
+  version = 112,
+  versionName = "3.0.4",
   description = "Advanced Navigation Manager",
   iconName = "ventanas.png"
 )
@@ -70,54 +70,8 @@ public class NavigationManager extends AndroidNonvisibleComponent {
   }
 }
 /*
-
-  @SimpleFunction(description = "Establece la pantalla raíz.")
-  public void RootScreen(AndroidViewComponent root) {
-    controller.removeRoot();
-    controller.setRoot(root);
-    OnActiveScreen(root);
-  }
-
-  @SimpleFunction(description = "Navega a una pantalla.")
-  public void NavigateToScreen(AndroidViewComponent main) {
-    AndroidViewComponent result = controller.navigateTo(main);
-    if (result != null) OnActiveScreen(result);
-  }
-
-  @SimpleFunction(description = "Navega a una subpantalla.")
-  public void NavigateToSubScreen(
-    AndroidViewComponent main,
-    AndroidViewComponent sub
-  ) {
-    AndroidViewComponent result = controller.navigateToSub(main, sub);
-    if (result != null) OnActiveScreen(result);
-  }
-
-  @SimpleFunction(description = "Retrocede en la navegación.")
-  public void GoBack() {
-    if (!controller.canGoBack()) {
-      AndroidViewComponent root = controller.goBack();
-      OnNavigationEnd(root);
-      return;
-    }
-
-    AndroidViewComponent previous = controller.goBack();
-    if (previous != null) OnPreviousScreen(previous);
-  }
-
-  @SimpleEvent(description = "Se activa una pantalla.")
-  public void OnActiveScreen(AndroidViewComponent component) {
-    EventDispatcher.dispatchEvent(this, "OnActiveScreen", component);
-  }
-
-  @SimpleEvent(description = "Se vuelve a una pantalla anterior.")
-  public void OnPreviousScreen(AndroidViewComponent component) {
-    EventDispatcher.dispatchEvent(this, "OnPreviousScreen", component);
-  }
-
-  @SimpleEvent(description = "Ya no hay más pantallas en la pila.")
-  public void OnNavigationEnd(AndroidViewComponent root) {
-    EventDispatcher.dispatchEvent(this, "OnNavigationEnd", root);
-  }
-
- */
+UPDATE REPOSITORY GIT HUB
+git add .
+git commit -m "v2 - NavigationManager"
+git push origin main
+*/

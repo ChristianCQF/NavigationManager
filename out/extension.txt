@@ -8,7 +8,7 @@ Advanced Navigation Manager
 * **
 📦 **Package:** com.christianqf.navigationmanager
 💾 **Size:** 7.95 KB
-⚙️ **Version:** 3.0.3
+⚙️ **Version:** 3.0.4
 📱 **Minimum API Level:** 7
 📅 **Updated On:** [date=2025-07-28 timezone="America/Lima"]
 💻 **Built & documented using:** [FAST](https://community.appinventor.mit.edu/t/fast-an-efficient-way-to-build-publish-extensions/129103?u=jewel) <small><mark>v3.7.1</mark></small>

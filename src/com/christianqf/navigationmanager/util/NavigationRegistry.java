@@ -8,13 +8,11 @@ import java.util.Set;
 
 public class NavigationRegistry {
 
-  //private final Map<AndroidViewComponent, String> screenTypes = new HashMap<>();
   private final Set<AndroidViewComponent> screenTypes = new HashSet<>();
   private final Map<AndroidViewComponent, AndroidViewComponent> subScreenTypes =
     new HashMap<>();
 
   public void registerScreen(AndroidViewComponent component) {
-    //screenTypes.putIfAbsent(component, "normal");
     if (!screenTypes.contains(component)) {
       screenTypes.add(component);
     }
@@ -36,7 +34,6 @@ public class NavigationRegistry {
   }
 
   public boolean isScreenRegistered(AndroidViewComponent component) {
-    //return screenTypes.containsKey(component);
     return screenTypes.contains(component);
   }
 
