@@ -1,0 +1,67 @@
+<div align="center">
+<h1><kbd>🧩 NavigationManager</kbd></h1>
+An extension for MIT App Inventor 2.<br>
+Advanced Navigation Manager
+</div>
+
+## 📝 Specifications
+* **
+📦 **Package:** com.christianqf.navigationmanager
+💾 **Size:** 7.95 KB
+⚙️ **Version:** 3.0.3
+📱 **Minimum API Level:** 7
+📅 **Updated On:** [date=2025-07-28 timezone="America/Lima"]
+💻 **Built & documented using:** [FAST](https://community.appinventor.mit.edu/t/fast-an-efficient-way-to-build-publish-extensions/129103?u=jewel) <small><mark>v3.7.1</mark></small>
+
+## <kbd>Events:</kbd>
+**NavigationManager** has total 3 events.
+
+### 1. OnScreen
+Se activa una pantalla.
+
+| Parameter | Type
+| - | - |
+| screen | component
+
+### 2. OnBack
+Se vuelve a una pantalla anterior.
+
+| Parameter | Type
+| - | - |
+| screen | component
+
+### 3. OnRoot
+Ya no hay más pantallas en la pila.
+
+| Parameter | Type
+| - | - |
+| screen | component
+
+## <kbd>Methods:</kbd>
+**NavigationManager** has total 4 methods.
+
+### 1. SetRoot
+Establece la pantalla raíz.
+
+| Parameter | Type
+| - | - |
+| main | component
+
+### 2. Navigate
+Navega a una pantalla.
+
+| Parameter | Type
+| - | - |
+| main | component
+
+### 3. NavigateSub
+Navega a una subpantalla.
+
+| Parameter | Type
+| - | - |
+| main | component
+| sub | component
+
+### 4. Back
+Retrocede en la navegación.
+
